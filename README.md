@@ -67,3 +67,7 @@ Different tokens' prices can be volatility or not. In this way, pairs can be gro
 2. tokens with low volatillty, such as usdc/usdt, usdc/dai.
 
 The main problem is that liquidity provider's is not efficient since the profit can be split accross all the curve. V3 allows liquidity provider consentracte their money on a small range of prices. The range of the prices is called tick.
+
+## Milestones
+
+- [ ] milestone 1: First Swap: build a pool contract that can receive liquidity from users and make swaps within a price range.
