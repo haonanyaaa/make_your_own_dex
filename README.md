@@ -58,3 +58,12 @@ In conclusion:
 1. Before a trade, there's a spot price, its equal to the relation of reserves, the price is the slope of the tangent line at the starting point.
 2. After a trade, there's a new spot price where the price is the slop of the tangent line.
 3. The actual price of the trade is the slopes of the line connecting the two points.
+
+## Uniswap V3
+
+Different tokens' prices can be volatility or not. In this way, pairs can be grouped by price volatillity.
+
+1. tokens with medium and high price volatillity. The tokens don't have their prices pegged to something and are subject to market fluctuations.
+2. tokens with low volatillty, such as usdc/usdt, usdc/dai.
+
+The main problem is that liquidity provider's is not efficient since the profit can be split accross all the curve. V3 allows liquidity provider consentracte their money on a small range of prices. The range of the prices is called tick.
